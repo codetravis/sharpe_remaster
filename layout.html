@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="sharpe_app">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shooters Indoor Range and Gun Shop</title>
+  <link rel="stylesheet" href="skeleton/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="skeleton/css/skeleton.css" type="text/css" />
+  <link rel="stylesheet" href="assets/stylesheets/base.css" type="text/css" />
+  <link rel="stylesheet" href="assets/stylesheets/responsive.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <header id="top" class="top">
+    <a id="banner" href="layout.html#/">
+      <img id="banner-logo" src="assets/images/sharpe_shooters_logo.jpg" width="150" height="150" />
+    </a>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-item">
+          <a href="layout.html#/" class="menu-item-link">About</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/range" class="menu-item-link">Range</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/memberships" class="menu-item-link">Memberships</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/events" class="menu-item-link">Events</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/directions" class="menu-item-link">Directions</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/calendar" class="menu-item-link">Calendar</a>
+        </li>
+        <li class="menu-item">
+          <a href="layout.html#/training" class="menu-item-link">Training</a>
+        </li>
+        <li class="stretch"></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="content-wrapper">
+    <div id="content" ng-view="" autoscroll="true">
+
+    </div>
+  </div>
+  <footer id="main-footer">
+    <div class="social-bar">
+      <div class="row">
+        <a href="https://www.facebook.com/sharpeshooters" title="Facebook" target="_blank">
+          <img src="assets/images/fb_logo.bmp" alt="Facebook Icon" width="44" height="44" />
+        </a>
+      </div>
+      <div class="row centered">
+        Follow us on Facebook!
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
